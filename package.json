@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-starter",
+  "private": true,
+  "description": "A GatsbyJS starter project.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "gatsby build && gh-pages -d public"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.119",
+    "gatsby-plugin-google-analytics": "^2.0.13",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sass": "^2.0.10",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-helmet": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heyitsolivia/gatsby-starter"
+  },
+  "bugs": {
+    "url": "https://github.com/heyitsolivia/gatsby-starter/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
